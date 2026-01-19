@@ -40,6 +40,8 @@ models:
     marts:
       marketing:
         +materialized: table
+  snowflake_spend:
+      +enabled: true
     
 
     
